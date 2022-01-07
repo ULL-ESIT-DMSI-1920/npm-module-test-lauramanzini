@@ -48,7 +48,7 @@ A través de **JSDoc 3** es posible generar la documentación. JSDoc 3 es un gen
 Para instalar la herramienta es necesario ejecutar el siguiente comando:
 
 ```
-npm install jsdoc
+npm install -g jsdoc
 ```
 
 La documentación se genera ejecutando:
