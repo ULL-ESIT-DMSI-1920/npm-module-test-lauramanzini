@@ -21,14 +21,13 @@ Es necesario añadir al fichero package.json las siguiente dipendencias:
   },
 ```
 
-Luego se instalan las dipendencias y se empieza a crear los tests te Mocha
-
+Luego se instalan las dipendencias y se inicializa Mocha.
 ```
 npm install
 mocha init test
 ```` 
 
-Se initializa un (fichero)[./test/filetest.js] para crear los tests.
+Se inicializa un fichero llamado (tests)[./tests/tests.js] para crear los tests.
 
 ## Mocha y Chai
 
