@@ -1,6 +1,6 @@
 {
   "name": "@lauramanzini/gh-repo-rename",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "gh-repo-rename.js",
   "scripts": {
