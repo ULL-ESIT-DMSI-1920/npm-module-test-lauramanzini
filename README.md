@@ -40,3 +40,19 @@ Al describir de las pruebas Mocha utilizas dos funciones principales que son:
 
 
 **Chai** es un librería de aserciones, la cual se puede emparejar con cualquier marco de pruebas de Javascript. Chai tiene varias interfaces: assert, expect y should, que permiten al desarrollador elegir el estilo que le resulte más legible y cómodo a la hora de desarrollar sus tests.
+
+## Documentación
+ 
+A través de **JSDoc 3** es posible generar la documentación. JSDoc 3 es un generador de documentación API para JavaScript, similar a Javadoc o phpDocumentor. Un vez que se han añadidos los comentarios al código fuente la herramienta JSDoc escaneará el gódigo y generará un sitio web de documentación HTML.
+
+Para instalar la herramienta es necesario ejecutar el siguiente comando:
+
+```
+npm install jsdoc
+```
+
+La documentación se genera ejecutando:
+
+```
+jsdoc book.js
+```

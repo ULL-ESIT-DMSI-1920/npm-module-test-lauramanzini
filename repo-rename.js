@@ -2,8 +2,8 @@ const shell = require('shelljs');
 
 /**
  * This function retrieve the id of a repository that belongs to an organization
- * @param {*} owner - the owner of the organization
- * @param {*} name - name of the repository
+ * @param {string} owner - the owner of the organization
+ * @param {string} name - name of the repository
  * @returns - the id of the repository
  */
 function getRepoId (owner, name) {
@@ -29,8 +29,8 @@ function getRepoId (owner, name) {
 
 /**
  * This function changes the name of a repository with a new one 
- * @param {*} id - id of the repository
- * @param {*} newName - new name given to the repsoitory
+ * @param {string} id - id of the repository
+ * @param {string} newName - new name given to the repsoitory
  * @returns - the new name of the repository
  */
 function renameRepo (id, newName) {

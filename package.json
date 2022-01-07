@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^8.3.0",
+    "jsdoc": "^3.6.7",
     "shelljs": "^0.8.4",
     "tree": "^0.1.3"
   },
