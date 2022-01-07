@@ -3,15 +3,23 @@ var should = require('chai').should(),
     getRepoId = repo.getRepoId,
     renameRepo = repo.renameRepo;
 
-const owner = 'ULL-ESIT-DMSI-1920',
-const name = 'prueba-laura'
-const id = '',
-const newName = '';
+    /**
+     * 
+     * const owner = 'ULL-ESIT-DMSI-1920',
+     *    const name = 'prueba-laura'
+     *  const id = '',
+    const newName = '';
+     */
+
 
 
 describe('Get repository information', function(){
+    
     it('\t gets  repository owner', function(){
-        getRepoId(owner).should.equal('ULL-ESIT-DMSI-1920');
+        getRepoId.should.be.lengthOf(2);
+    });
+    it('\t gets  repository owner', function(){
+        getRepoId('ULL-ESIT-DMSI-1920').should.equal(prueba);
     });
 });
 
