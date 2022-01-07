@@ -4,7 +4,7 @@ Estudiante: Laura Manzini - alu0101531700@ull.edu.es
 
 ## Descripción 
 
-En esta practica se hace el testing de la extensión *gh-repo-rename* a través del utilizo de Mocha y Chai. Mocha es 
+En esta practica se hace el testing de la extensión *gh-repo-rename* a través del utilizo de Mocha y Chai.
 
 Por primero es necesario instalar Mocha y Chain ejecutando el siguiente comando:
 
@@ -27,3 +27,17 @@ Luego se instalan las dipendencias y se empieza a crear los tests te Mocha
 npm install
 mocha init test
 ```` 
+
+Se initializa un (fichero)[./test/filetest.js] para crear los tests.
+
+## Mocha y Chai
+
+**Mocha** es un framework de pruebas de JavaScript que se ejecuta en Node.js. Las pruebas de Mocha se ejecutan en serie, lo que permite informes flexibles y precisos.
+
+Al describir de las pruebas Mocha utilizas dos funciones principales que son:
+
+* describe(): función que agrupa las pruebas en mocha
+* it(): funcioón que se utiliza para un caso de prueba individual. In particular la función toma dos argumentos, una cadena que explica lo que debe hacer la prueba y una función de devolución de llamada
+
+
+**Chai** es un librería de aserciones, la cual se puede emparejar con cualquier marco de pruebas de Javascript. Chai tiene varias interfaces: assert, expect y should, que permiten al desarrollador elegir el estilo que le resulte más legible y cómodo a la hora de desarrollar sus tests.

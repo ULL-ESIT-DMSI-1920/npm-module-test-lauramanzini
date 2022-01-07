@@ -3,15 +3,14 @@ var should = require('chai').should(),
     getRepoId = repo.getRepoId,
     renameRepo = repo.renameRepo;
 
-    /**
-     * 
-     * const owner = 'ULL-ESIT-DMSI-1920',
-     *    const name = 'prueba-laura'
-     *  const id = '',
-    const newName = '';
-     */
+/**
+    const owner = 'ULL-ESIT-DMSI-1920',
+    const name = 'prueba-laura'
+ */
 
 
+const id = 'R_kgDOGbkokQ',
+  
 
 describe('Get repository information', function(){
     
@@ -19,18 +18,17 @@ describe('Get repository information', function(){
         getRepoId.should.be.lengthOf(2);
     });
     it('\t gets  repository owner', function(){
-        getRepoId('ULL-ESIT-DMSI-1920').should.equal(prueba);
+        getRepoId('ULL-ESIT-DMSI-1920', 'prueba-laura-funciona').should.equal(id);
     });
 });
 
-/**
- * describe('Change repository name', function(){
+
+  describe('Change repository name', function(){
     it('\t gets repository id', function(){
-        getRepoId('ULL-ESIT-DMSI-1920', null).should.equal(getRepoId(owner, null));
+        renameRepo().should.equal();
     });
 
     it('\t gets repository new name', function(){
-        getRepoId(null, 'prueba-laura').should.equal(getRepoId(null,));
+        renameRepo().should.equal();
     });
 });
- */
