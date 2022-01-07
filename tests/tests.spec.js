@@ -11,15 +11,12 @@ const newName = '';
 
 describe('Get repository information', function(){
     it('\t gets  repository owner', function(){
-        getRepoId('ULL-ESIT-DMSI-1920', null).should.equal(getRepoId(owner, null));
-    });
-
-    it('\t gets repository name', function(){
-        getRepoId(null, 'prueba-laura').should.equal(getRepoId(null,));
+        getRepoId(owner).should.equal('ULL-ESIT-DMSI-1920');
     });
 });
 
-describe('Change repository name', function(){
+/**
+ * describe('Change repository name', function(){
     it('\t gets repository id', function(){
         getRepoId('ULL-ESIT-DMSI-1920', null).should.equal(getRepoId(owner, null));
     });
@@ -28,3 +25,4 @@ describe('Change repository name', function(){
         getRepoId(null, 'prueba-laura').should.equal(getRepoId(null,));
     });
 });
+ */
