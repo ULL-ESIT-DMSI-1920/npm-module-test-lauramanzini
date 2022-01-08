@@ -31,7 +31,7 @@ describe('Get repository information', function(){
     it('\t gets repository new name', function(){
         renameRepo(id, 'prueba-laura-funciona').should.equal(newName);
     });
-    it('\t verify', function(){
+    it('\t new repository name is correct', function(){
         let wrongName = 'prueba-anna-funciona'
         assert.notEqual(renameRepo(id, 'prueba-laura-funciona'), wrongName )
     });

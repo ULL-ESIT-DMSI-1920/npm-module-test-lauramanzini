@@ -51,8 +51,8 @@ Para instalar la herramienta es necesario ejecutar el siguiente comando:
 npm install -g jsdoc
 ```
 
-La documentación se genera ejecutando:
+La documentación se genera utilizando la función `jsdoc` y indicando el fichero en el que se han definidos los comentarios, en este caso el fichero `repo-rename.js`.
 
 ```
-jsdoc book.js
+jsdoc repo-rename.js
 ```
