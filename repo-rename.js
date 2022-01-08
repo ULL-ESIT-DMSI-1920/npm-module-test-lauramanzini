@@ -39,7 +39,7 @@ function renameRepo (id, newName) {
         updateRepository(input: { name: "${newName}", repositoryId: "${id}" }) {
         repository{
             name
-        }
+            }
         }
     }
     `;
