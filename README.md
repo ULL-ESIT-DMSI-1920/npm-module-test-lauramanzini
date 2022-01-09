@@ -56,3 +56,5 @@ La documentación se genera utilizando la función `jsdoc` y indicando el ficher
 ```
 jsdoc repo-rename.js
 ```
+
+La documentación se encontrará en el fichero (out)[./out] que la herramienta JSDoc 3 ha creado.
