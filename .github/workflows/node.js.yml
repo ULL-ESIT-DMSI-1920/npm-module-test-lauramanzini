@@ -28,8 +28,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           cache: 'npm'
-      - run: npm ci
-      - run: npm test
+          
+      - name: "Install dependencies "
+        run: npm ci
+        
+      - name: "Run Mocha and Chai tests"
+        run: npm test
         env:
-          CI: true
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          CI: true
+          
