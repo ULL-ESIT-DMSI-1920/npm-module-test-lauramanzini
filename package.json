@@ -1,20 +1,26 @@
 {
   "name": "@lauramanzini/gh-repo-rename",
   "version": "1.2.4",
-  "description": "",
+  "description": "test and documentation for the extension gh-repo-rename",
   "main": "gh-repo-rename.js",
   "scripts": {
-    "create-prueba": "gh create-repo prueba-laura ULL-ESIT-DMSI-1920",
-    "list-prueba": "gh submodule-add -s prueba-laura -o ULL-ESIT-DMSI-1920 -n",
-    "test": "./gh-repo-rename -o ULL-ESIT-DMSI-1920 -r prueba-laura -n prueba-laura-funciona; mocha --recursive spec ./tests/tests.js",
-    "back": "./gh-repo-rename -o ULL-ESIT-DMSI-1920 -r prueba-laura-funciona -n prueba-laura; npm run list-prueba",
+    "test": "mocha --recursive ./tests/tests.js",
+    "doc" : "jsdoc repo-rename.js",
     "start": "node gh-repo-rename.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lauramanzini/gh-repo-rename.git"
   },
-  "keywords": [],
+  "keywords": [
+    "gh",
+    "extension",
+    "rename",
+    "repository",
+    "test",
+    "mocha",
+    "chai"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
