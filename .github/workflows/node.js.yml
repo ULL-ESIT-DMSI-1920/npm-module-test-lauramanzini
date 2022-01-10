@@ -30,6 +30,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm test
-      # Environment variables
         env:
           CI: true
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
