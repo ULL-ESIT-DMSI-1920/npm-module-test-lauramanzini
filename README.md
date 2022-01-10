@@ -1,19 +1,19 @@
- # Testing de la extensión gh-repo-rename
+# Testing de la extensión gh-repo-rename
 
 Estudiante: Laura Manzini - alu0101531700@ull.edu.es
 
 ## Descripción 
 
-En esta practica se hace el testing de la extensión *gh-repo-rename* a través del utilizo de Mocha y Chai.
+En esta practica se hace el testing de la extensión *gh-repo-rename* a través de las herramientas Mocha y Chai.
 
-Por primero es necesario instalar Mocha y Chain ejecutando el siguiente comando:
+Por primero es necesario instalar Mocha y Chai ejecutando el siguiente comando:
 
 ```
 npm install mocha --save-dev
 npm install chai --save-dev
 ```
 
-Es necesario añadir al fichero package.json las siguiente dipendencias:
+Es necesario añadir al fichero [package.json](./package.json) las siguientes dipendencias:
 
 ```
  "devDependencies": {
@@ -22,12 +22,13 @@ Es necesario añadir al fichero package.json las siguiente dipendencias:
 ```
 
 Luego se instalan las dipendencias y se inicializa Mocha.
+
 ```
 npm install
 mocha init test
 ```` 
 
-Se inicializa un fichero llamado (tests)[./tests/tests.js] para crear los tests.
+Se inicializa un fichero llamado [tests](./tests/tests.js) para desarrollar los tests.
 
 ## Mocha y Chai
 
@@ -35,17 +36,16 @@ Se inicializa un fichero llamado (tests)[./tests/tests.js] para crear los tests.
 
 Al describir de las pruebas Mocha utilizas dos funciones principales que son:
 
-* describe(): función que agrupa las pruebas en mocha
-* it(): funcioón que se utiliza para un caso de prueba individual. In particular la función toma dos argumentos, una cadena que explica lo que debe hacer la prueba y una función de devolución de llamada
-
+* *describe()*: función que agrupa las pruebas en mocha.
+* *it()*: función que se utiliza para un caso de prueba individual. In particular la función toma dos argumentos, una cadena que explica lo que debe hacer la prueba y una función de devolución de llamada.
 
 **Chai** es un librería de aserciones, la cual se puede emparejar con cualquier marco de pruebas de Javascript. Chai tiene varias interfaces: assert, expect y should, que permiten al desarrollador elegir el estilo que le resulte más legible y cómodo a la hora de desarrollar sus tests.
 
 ## Documentación
  
-A través de **JSDoc 3** es posible generar la documentación. JSDoc 3 es un generador de documentación API para JavaScript, similar a Javadoc o phpDocumentor. Un vez que se han añadidos los comentarios al código fuente la herramienta JSDoc escaneará el gódigo y generará un sitio web de documentación HTML.
+A través de **JSDoc 3** es posible generar la documentación. JSDoc 3 es un generador de documentación API para JavaScript, similar a Javadoc o phpDocumentor. Un vez que se han añadidos los comentarios al código fuente la herramienta JSDoc escaneará el código y generará un sitio web de documentación HTML.
 
-Para instalar la herramienta es necesario ejecutar el siguiente comando:
+Para instalar la herramienta es necesario ejecutar:
 
 ```
 npm install -g jsdoc
@@ -57,4 +57,4 @@ La documentación se genera utilizando la función `jsdoc` y indicando el ficher
 jsdoc repo-rename.js
 ```
 
-La documentación se encontrará en el fichero (out)[./out] que la herramienta JSDoc 3 ha creado.
+La documentación se encontrará en el fichero [out](./out) que la herramienta JSDoc 3 ha creado.
