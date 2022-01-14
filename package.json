@@ -1,11 +1,11 @@
 {
   "name": "@lauramanzini/gh-repo-rename",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "test and documentation for the extension gh-repo-rename",
   "main": "gh-repo-rename.js",
   "scripts": {
     "test": "mocha --recursive ./tests/tests.js",
-    "doc" : "jsdoc repo-rename.js",
+    "doc": "jsdoc repo-rename.js",
     "start": "node gh-repo-rename.js"
   },
   "repository": {
