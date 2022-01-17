@@ -8,7 +8,7 @@ Estudiante: Laura Manzini - alu0101531700@ull.edu.es
 4. [GitHub Actions](#githubactions)
 5. [Documentación](#doc)
 
-<a name="descr"/>
+<a name="descr"/><a>
 ## 1. Descripción 
 
 En esta practica se hace el testing de la extensión *gh-repo-rename* a través de las herramientas Mocha y Chai.
@@ -37,7 +37,7 @@ mocha init test
 
 Se inicializa un fichero llamado [tests](./tests/tests.js) para desarrollar los tests.
 
-<a name="mochaychai"/>
+<a name="mochaychai"/><a>
 ## 2. Mocha y Chai
 
 **Mocha** es un framework de pruebas de JavaScript que se ejecuta en Node.js. Las pruebas de Mocha se ejecutan en serie, lo que permite informes flexibles y precisos.
@@ -50,7 +50,7 @@ Al describir de las pruebas Mocha utilizas dos funciones principales que son:
 **Chai** es un librería de aserciones, la cual se puede emparejar con cualquier marco de pruebas de Javascript. Chai tiene varias interfaces: assert, expect y should, que permiten al desarrollador elegir el estilo que le resulte más legible y cómodo a la hora de desarrollar sus tests.
 
 
-<a name="ejec"/>
+<a name="ejec"/><a>
 ## 3. Ejecución 
 
 Los pruebas que sen han desarrollado por la extension se encuentran en el fichero [tests](./tests/tests.js). En el fichero [package.json](./package.json) se define en corrispondencia de "test" el siguiente comando: 
@@ -66,7 +66,7 @@ Luego se comproba el correcto funcionamiento de las pruebas ejecutando el siguie
 npm run test
 ```
 
-<a name="githubactions"/>
+<a name="githubactions"/><a>
 ## 4. GitHub Actions
 GitHub Actions es una herramienta que permite reducir la cadena de acciones necesaria para la ejecución de código, mediante la creación de un de flujo de trabajo encargado del Pipeline. Siendo configurable para que GitHub reaccione a ciertos eventos de forma automática según nuestras preferencias.
 
@@ -92,7 +92,7 @@ Lo siguiente es el resultado obtenido por la ejecución del workflow.
   6 passing (3s)
 ```
 
-<a name="doc"/>
+<a name="doc"/><a>
 ## 5. Documentación
  
 A través de **JSDoc 3** es posible generar la documentación. JSDoc 3 es un generador de documentación API para JavaScript, similar a Javadoc o phpDocumentor. Un vez que se han añadidos los comentarios al código fuente la herramienta JSDoc escaneará el código y generará un sitio web de documentación HTML.
